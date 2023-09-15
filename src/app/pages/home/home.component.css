@@ -6,9 +6,13 @@
     justify-content: center;
 }
 
-header{
+.text-card-big {
     display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    flex-direction: row;
+    text-align: center;
 }
+
+
+
+
+

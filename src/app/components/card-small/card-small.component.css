@@ -18,8 +18,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 10px;
 }
 
 .container_card-small-divisor {
     margin-top: 15px;
+}
+
+.container_card-small-divisor > hr {
+    color: rgb(43, 41, 41);
+}
+
+.card-small__tic {
+    color: orange;
 }

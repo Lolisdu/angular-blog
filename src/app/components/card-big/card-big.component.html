@@ -8,10 +8,12 @@
         >
     </div>
     <div class="card-big__text">
-        <h1><a href="https://hermes.dio.me/articles/cover/6b63cf3d-951b-4e41-a538-9068deadde31.png">{{ cardTitle }} </a></h1>
+        <h1><a [routerLink]="['conteudo', Id]">{{ cardTitle }} </a></h1>
     </div>
     <div class="card-big__subtext">
-        <p>{{ cardSubtitle }}
-           </p>
+        <p>
+           <a [routerLink]="['conteudo', Id]">{{ cardSubtitle }}
+           </a>
+        </p>
     </div>
 </div>

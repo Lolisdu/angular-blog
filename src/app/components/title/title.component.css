@@ -1,5 +1,5 @@
 .title-container{
-    color: white;
+    color: rgb(250, 245, 249);
 }
 
 .title-container > h1 {
@@ -7,7 +7,6 @@
     margin-bottom: 15px;
     font-size: 125px;
     font-weight: lighter;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -16,3 +15,10 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.title-container > photo {
+    display: flex;
+    justify-content: center;
+}
+
+
